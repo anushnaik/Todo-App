@@ -1,0 +1,31 @@
+.check-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #00dca9;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .check-icon::after {
+    content: '';
+    width: 12px;
+    height: 6px;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    transform: rotate(-45deg);
+    position: absolute;
+  }
+  
+  .uncheck-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 2px solid #d1d5db;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
